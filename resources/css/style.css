@@ -88,3 +88,64 @@
         line-height: 1.2rem;
         font-size: 2rem;
     }
+
+/* ----------------------------------- */
+/*                MAIN                 */
+/* ----------------------------------- */
+
+    .flex-service {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 8rem;
+    }
+
+    .services {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .services span {
+        display: block;
+    }
+
+    .service-exams {
+        width: 3.5rem;
+        text-align: center;
+        margin-right: 6rem;
+    }
+
+    .service-fittings {
+        width: 5rem;
+        text-align: center;
+        margin-right: 6rem;
+    }
+
+    .service-delivery {
+        width: 5rem;
+        text-align: center;
+    }
+
+    .service-exams img {
+        max-width: 3.5rem;
+    }
+
+    .service-fittings img, .service-delivery img {
+        max-width: 5rem;
+    }
+
+    .information article {
+        width: 35%;
+        margin-right: 5%;
+        margin-bottom: 5rem;
+    }
+
+    .information h3 {
+        color: white;
+        font-size: 1rem;
+        background-color: cadetblue;
+        padding: 0.5rem 0 0.5rem 1.25rem;
+    }
