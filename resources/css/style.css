@@ -71,6 +71,11 @@
         display: none;
     }
 
+    .mobile-nav a {
+        color: white;
+        text-decoration: none;
+    }
+
     .message-box {
         justify-content: flex-end;
     }
@@ -137,6 +142,10 @@
         max-width: 5rem;
     }
 
+    .information article:nth-child(1) {
+        padding-left: 4rem;
+    }
+
     .information article {
         width: 35%;
         margin-right: 5%;
@@ -162,3 +171,132 @@
     footer span {
         padding-top: 4rem;
     }
+
+/* ----------------------------------- */
+/*             MEDIAQUERYS             */
+/* ----------------------------------- */
+
+@media only screen and (max-width: 1024px){
+
+    .container {
+        width: 100%;
+    }
+
+    .topbar {
+        top: 0;
+    }
+
+    .slogan {
+        margin-top: 5rem;
+        background-color: white;
+        margin-right: 2rem;
+    }
+
+    .slogan h1 {
+        padding: 0.75rem 4rem;
+        font-weight: bold;
+        line-height: 1.2rem;
+        font-size: 1.33rem;
+    }
+
+    header {
+        height: 22rem;
+    }
+
+}
+
+@media only screen and (max-width: 620px){
+
+    header {
+        height: 17rem;
+        background-position: 20%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .mobile-nav{
+        display: flex;
+        padding: 1rem 3rem 1rem 0;
+    }
+
+    .brand span:nth-child(2){
+        display: none;
+    }
+
+    .slogan {
+        margin-top: 9rem;
+        background-color: white;
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .slogan h1 {
+        margin: 0;
+        padding: 1rem;
+        font-weight: bold;
+        font-size: 1rem;
+        line-height: 1;
+    }
+
+    .service-exams, .service-fittings, .service-delivery {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        font-size: 0.77rem;
+    }
+
+    .service-fittings, .service-delivery {
+        padding-top: 1.54rem;
+    }
+
+    .services {
+        flex-wrap: wrap;
+        margin: 3.77rem 0;
+    }
+
+    .flex-service {
+        justify-content: space-around;
+    }
+
+    .information  {
+        flex-wrap: wrap;
+    }
+
+    .information article:nth-child(1) {
+        padding:0;
+    }
+
+    .information article {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        font-size: 0.77rem;
+    }
+
+    .information article p {
+        padding: 1rem 1% 4rem 1%;
+        margin: 0;
+    }
+
+    .information h3 {
+        margin: 0;
+        text-align: center;
+    }
+
+    footer .flex-container {
+        justify-content: center;
+    }
+
+    .footer-logo {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    footer span {
+        display: none;
+    }
+
+}
